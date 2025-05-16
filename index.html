@@ -3,17 +3,48 @@
 
 <head>
     <style>
+
+
+@font-face {
+    font-family: 'textfont2'; /* نام دلخواه برای فونت */
+    src: url('JTUSjIg1_i6t8kCHKm459Wlhyw.woff2') format('woff2'); /* مسیر فایل فونت */
+}
+
+
+.text{
+    position: absolute;
+    font-family: 'textfont2', sans-serif;
+}
+
+
+.logo{
+    position: absolute;
+    top: 15px;
+    margin-left: 160px;
+    height: 33px;
+    width: 123px;
+    z-index: 200;
+
+}
+
+
         .img-center {
-            width: 700px;
+            width: 620px;
+            height: 630px;
+            bottom: -100px;
+            right: -290px;
             z-index: 200;
             position: relative;
             margin: 0 auto;
             display: block;
+
         }
 
         body {
             margin: 0;
             background-color: #ffffff;
+            overflow: hidden;
+
         }
 
         .svg {
@@ -54,8 +85,16 @@
         </div>
     </div>
 
-    <!-- درست شده: class به جای claas -->
+  
     <img class="img-center" src="pract2-img.png">
+
+
+    <img class="logo" src="logo-splitpost@2x.png">
+
+
+    <div class="text">
+        <p>A Post Pagination WordPress Plugin</p>
+    </div>
 
 </body>
 
