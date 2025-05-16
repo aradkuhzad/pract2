@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html>
 
+
+<title>Split Post-A Post Pagination </title>
+
+
+<link rel="icon" type="" href="w-logo-blue-white-bg.png">
+
+
 <head>
     <style>
 
 
 @font-face {
-    font-family: 'textfont2'; /* نام دلخواه برای فونت */
-    src: url('JTUSjIg1_i6t8kCHKm459Wlhyw.woff2') format('woff2'); /* مسیر فایل فونت */
+    font-family: 'textfont2'; 
+    src: url('JTUSjIg1_i6t8kCHKm459Wlhyw.woff2') format('woff2'); 
 }
+
+
+@font-face {
+    font-family: 'menufont'; 
+    src: url('astra.woff') format('woff2'); 
+}
+
+
+
+body {
+      margin: 0;
+      font-family: 'textfont2', sans-serif;
+      background: #fff;
+    }
+
+    
+    .nav-menu {
+        position: absolute;
+      display: flex;
+      justify-content: center;       
+      gap: 30px;                     
+      padding: 20px 0;              
+      background-color: #ffffff;
+      top: 2px;
+      margin-left: 1140px;
+    }
+
+   
+    .nav-menu a {
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 500;
+      color: #000;
+      transition: color 0.2s;
+            z-index: 1000; 
+    }
+
+    .nav-menu a:hover {
+      color: #0073e6; 
+    }
+
+
 
 
 .text{
@@ -99,6 +148,16 @@
     <div class="text">
         <p>A Post Pagination WordPress Plugin</p>
     </div>
+
+
+ <nav class="nav-menu">
+    <a href="#demo">Demo</a>
+    <a href="#docs">Docs</a>
+    <a href="#support">Support</a>
+  </nav>
+
+
+
 
 </body>
 
